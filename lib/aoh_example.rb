@@ -53,5 +53,6 @@ def aoh_update(aoh, row, key, new_value)
     {name: "Bruce Green", occupation: "Fan of Mildred"}
     ]
     
-    literal_array[1][:name] = "Joelle van Dyne"
+     literal_array[row][key] = new_value
+  literal_array
 end
